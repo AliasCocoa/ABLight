@@ -14,7 +14,6 @@
 		6037D2BE982D0FCDED9F190DAAE06BCD /* Pods-ABLight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F1300154DAD33906CE9ACBA13AE976 /* Pods-ABLight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D84322ACBF9EB283A42A39B279B0F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		73156BE37F2F546350CD3190E54D977A /* ABLight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B88865113A72FA661585A9232A8B2F1E /* ABLight-dummy.m */; };
-		F5B74DF81FE040B7008391E7 /* sdkCRM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B74DF71FE040B7008391E7 /* sdkCRM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		E42E89061291A5935A5DCC5BCC323FCD /* ABLight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABLight.xcconfig; sourceTree = "<group>"; };
 		E96F283E3CEB8A48944A2D7B0D6E8AF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BE915AD4EEB2AC5581C2C629610403 /* Pods-ABLight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABLight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F5B74DF71FE040B7008391E7 /* sdkCRM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkCRM.framework; sourceTree = "<group>"; };
 		F7B7C4724D9AA2A9D2846E61625D08F8 /* Pods-ABLight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ABLight_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B74DF81FE040B7008391E7 /* sdkCRM.framework in Frameworks */,
 				21EAF8BF22B22F12CE2BCD5898F01AF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +96,6 @@
 		2BEF30CFDDEE5A84A7DDC1D246B93483 /* ABLight */ = {
 			isa = PBXGroup;
 			children = (
-				F5B74DF71FE040B7008391E7 /* sdkCRM.framework */,
 				E189A89FE89F9E39E60FD01621C8B21B /* ReplaceMe.m */,
 				2424508B67CE1B43A7837A9C89A15958 /* Support Files */,
 			);
