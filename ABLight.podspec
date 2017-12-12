@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ABLight/Classes/**/*'
-  #s.ios.vendored_frameworks = '*.framework'  
+  #s.source_files = 'ABLight/Classes/**/*'
+  s.ios.vendored_frameworks = '*.framework'  
   s.dependency  'Protobuf'
 
   
