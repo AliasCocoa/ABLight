@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABLight'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'ABLight SDK to manage CRM'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ABLight/Classes/**/*'
+  s.ios.vendored_frameworks = '*.framework'  
+  s.dependency  'Protobuf'
+
   
   # s.resource_bundles = {
   #   'ABLight' => ['ABLight/Assets/*.png']
