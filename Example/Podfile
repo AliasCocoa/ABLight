@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ABLight_Tests' do
+  pod 'ABLight', :path => '../'
+  
+  
+end
