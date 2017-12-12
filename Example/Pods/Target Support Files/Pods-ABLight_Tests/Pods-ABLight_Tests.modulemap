@@ -1,0 +1,6 @@
+framework module Pods_ABLight_Tests {
+  umbrella header "Pods-ABLight_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

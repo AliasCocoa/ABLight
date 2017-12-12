@@ -1,0 +1,6 @@
+framework module ABLight {
+  umbrella header "ABLight-umbrella.h"
+
+  export *
+  module * { export * }
+}
